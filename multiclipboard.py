@@ -16,9 +16,9 @@ def load_data(filepath):
             return data
     except:
         return{} #ifthe file is empty
-#save_items("test.json", {"key":"value"})
+
 #print(sys.argv[1:]) prints ['test', 'hello', 'world']
-if len(sys.argv)== 2:
+if len(sys.argv) == 2:
     command = sys.argv[1]
     data = load_data(SAVED_DATA)
 
